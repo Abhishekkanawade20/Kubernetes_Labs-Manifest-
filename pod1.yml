@@ -1,0 +1,12 @@
+# Here we are creating pod and inside pod creating container.
+
+kind: Pod
+apiVersion: v1
+metadata:
+  name: testpod
+spec:
+  containers:
+    - name: container-1.
+      image: nginx
+      ports:
+       - containerPort: 80

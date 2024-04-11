@@ -1,3 +1,5 @@
+# To create pod, and create two containers inside pod.
+
 kind: Pod
 apiVersion: v1
 metadata:
@@ -12,4 +14,3 @@ spec:
       ports:
        - containerPort: 80
 
-       
