@@ -6,7 +6,7 @@ metadata:
   name: testpod
 spec:
   containers:
-    - name: c00.
+    - name: container1
       image: nginx
       ports:
        - containerPort: 80
