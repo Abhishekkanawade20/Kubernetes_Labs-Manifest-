@@ -1,0 +1,11 @@
+# Here we are creating pod and inside that pod creating one container.
+
+apiVersion: v1
+kind: pod
+metadata:                      # Under this tab describing info
+ name: testpod
+spec:                          # defining container under specification
+  containers:
+    - name: container1
+      image: nginx
+      
