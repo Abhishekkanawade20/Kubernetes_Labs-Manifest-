@@ -1,7 +1,7 @@
 # Here we are creating pod and inside that pod creating one container.
 
-apiVersion: v1
 kind: pod
+apiVersion: v1
 metadata:                      # Under this tab describing info
  name: testpod
 spec:                          # defining container under specification
