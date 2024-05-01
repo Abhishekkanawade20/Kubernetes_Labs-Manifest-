@@ -7,5 +7,5 @@ metadata:                      # Under this tab describing info
 spec:                          # defining container under specification
   containers:
     - name: container1
-      image: nginx
+      image: ubuntu
       
