@@ -1,0 +1,11 @@
+kind: pod
+apiVersion: v1
+metadata:
+  name: mypod1
+  labels: 
+    environment: development
+    class: pods
+spec: 
+  containers:
+    - name: mycontanier1
+      image: ubuntu 
