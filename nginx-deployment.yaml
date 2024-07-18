@@ -1,0 +1,25 @@
+#Here we are using deployement, in that we are defining replica set which is resposible for create pod
+#and auto healing feature if any pod deletes then it will resposible for to create pod.
+# so basically replica set is kubernetes controller .
+
+apiVersion: apps/v1
+kind: Deployment              
+metadata:
+  name: nginx-deployment
+  labels:
+    app: nginx
+spec:
+  replicas: 3              # here defining replica set it will create 3 pods, replica set will create pod also it will work like auto healing                                    
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:1.14.2
+        ports:
+        - containerPort: 80
