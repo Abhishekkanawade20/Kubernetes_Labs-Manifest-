@@ -1,6 +1,6 @@
 # here we are creating node
 
-kind: Node
+kind: cluster
 apiVersion: v1
 nodes: 
 - role: control-plane1
