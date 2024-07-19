@@ -2,6 +2,8 @@
 #and auto healing feature if any pod deletes then it will resposible for to create pod.
 # so basically replica set is kubernetes controller .
 
+
+
 apiVersion: apps/v1
 kind: Deployment              
 metadata:
