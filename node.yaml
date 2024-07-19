@@ -1,0 +1,10 @@
+# here we are creating node
+
+kind: node
+apiVersion: apps/v1
+metadata:
+  name: my-first-pod
+  labels:
+    name: k8s-pod
+
+    
