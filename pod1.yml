@@ -4,6 +4,8 @@ kind: Pod   # creating pod
 apiVersion: v1
 metadata:
   name: testpod
+  labels:
+    app: testpod   # added label
 spec:
   containers:
     - name: container1
