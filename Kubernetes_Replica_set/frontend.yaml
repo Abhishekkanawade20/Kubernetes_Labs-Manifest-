@@ -11,6 +11,7 @@ spec:
   selector:
     matchLabels:
       tier: frontend
+      
   template:
     metadata:
       labels:
