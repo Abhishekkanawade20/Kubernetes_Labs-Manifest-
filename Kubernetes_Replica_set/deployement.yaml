@@ -13,6 +13,7 @@ spec:
     metadata:
       labels:
         app: sample-python-app
+
         
     spec:
       containers:
